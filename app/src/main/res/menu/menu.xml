@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24"/>
+    <item
+        android:id="@+id/about"
+        android:title="About"
+        android:icon="@drawable/baseline_location_city_24"/>
+    <item
+        android:id="@+id/galeri"
+        android:title="Galeri"
+        android:icon="@drawable/baseline_image_24"/>
+    <item
+        android:id="@+id/kontak"
+        android:title="kontak"
+        android:icon="@drawable/baseline_phone_24"/>
+    <item
+        android:id="@+id/logout"
+        android:title="Log out"
+        android:icon="@drawable/baseline_logout_24"/>
+</menu>

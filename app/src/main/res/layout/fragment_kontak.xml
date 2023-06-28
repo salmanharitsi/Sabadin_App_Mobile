@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abu1"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ui.kontak.KontakFragment">
+
+    <TextView
+
+        android:layout_below="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF400"
+        android:textSize="40dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins"
+        android:layout_centerHorizontal="true"
+        android:text="Hubungi Kami"/>
+
+    <TextView
+        android:layout_below="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/abu1"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins"
+        android:layout_centerHorizontal="true"
+        android:text="Alamat"/>
+
+    <TextView
+        android:layout_below="@+id/logo"
+        android:layout_width="300dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:textColor="@color/abu"
+        android:textSize="15dp"
+        android:fontFamily="@font/poppins"
+        android:layout_centerHorizontal="true"
+        android:text="JL.Kaharudin Nasution, Komplek Dokagu UIR Blok C No 53, Kelurahan Airdingin, Kecamatan Bukit Raya, Kota Pekanbaru"/>
+
+    <TextView
+        android:layout_below="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/abu1"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins"
+        android:layout_centerHorizontal="true"
+        android:text="Telpon"/>
+
+    <TextView
+        android:layout_below="@+id/logo"
+        android:layout_width="300dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:textColor="@color/abu"
+        android:textSize="15dp"
+        android:fontFamily="@font/poppins"
+        android:layout_centerHorizontal="true"
+        android:text="+62-822-1495-0740"/>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/sabadin"/>
+    <TextView
+        android:id="@+id/nama"
+        android:layout_below="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF400"
+        android:textSize="35dp"
+        android:fontFamily="@font/poppins"
+        android:layout_centerHorizontal="true"
+        android:text="sabadin"/>
+</LinearLayout>

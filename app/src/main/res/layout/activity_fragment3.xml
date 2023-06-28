@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abu1"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="Low Price"
+        android:textSize="30sp"
+        android:textColor="@color/yellow"
+        android:fontFamily="@font/poppins"/>
+
+    <ImageView
+        android:layout_width="212dp"
+        android:layout_height="238dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/moneybag"/>
+
+    <TextView
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:text="harga murah bukan berarti kualitas buruk, kami akan memberikan kualitas terbaik untuk anda"
+        android:textColor="#FFFCB8"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/keSplash"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text=">"
+        android:fontFamily="@font/poppins"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/yellow"
+        android:backgroundTint="@color/abu1"
+        android:layout_gravity="end"/>
+
+</LinearLayout>

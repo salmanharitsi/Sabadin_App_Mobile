@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abu1"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/sabadin"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="sabadin"
+        android:fontFamily="@font/poppins"
+        android:textColor="#EDED82"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="350dp"
+        android:drawableStart="@drawable/baseline_person_24"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:background="@color/abu"
+        android:inputType="textEmailAddress"
+        android:hint="    isikan id user anda.."
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="350dp"
+        android:drawableStart="@drawable/baseline_lock_24"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@color/abu"
+        android:inputType="textPassword"
+        android:hint="    isikan password anda.."
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:padding="8dp"
+        android:layout_marginTop="75dp"
+        android:layout_gravity="center"
+        android:text="login"
+        android:textStyle="bold"
+        android:textColor="@color/abu1"
+        android:backgroundTint="@color/yellow"/>
+
+    <TextView
+        android:id="@+id/daftar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Daftar akun"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+
+</LinearLayout>

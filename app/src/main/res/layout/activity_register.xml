@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abu1"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Daftar Akun"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/yellow"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+    
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        android:background="@color/abu"
+        android:hint="nama"
+        android:inputType="text"
+        android:fontFamily="@font/poppins"
+        android:textAlignment="center"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/et_date"
+        android:layout_width="170dp"
+        android:drawableEnd="@drawable/baseline_date_range_24"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="right"
+        android:inputType="date"
+        android:textSize="15dp"
+        android:hint="tanggal lahir"
+        android:backgroundTint="@color/white"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:focusable="false"
+        android:fontFamily="@font/poppins"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/userid"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@color/abu"
+        android:hint="id"
+        android:inputType="text"
+        android:fontFamily="@font/poppins"
+        android:textAlignment="center"
+        android:padding="8dp"/>
+    
+    <EditText
+        android:id="@+id/emaildaftar"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@color/abu"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:fontFamily="@font/poppins"
+        android:textAlignment="center"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@color/abu"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:fontFamily="@font/poppins"
+        android:textAlignment="center"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/konfirpass"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@color/abu"
+        android:hint="konfirmasi password"
+        android:inputType="textPassword"
+        android:fontFamily="@font/poppins"
+        android:textAlignment="center"
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/daftarbaru"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:padding="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="daftar"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/abu1"
+        android:textStyle="bold"/>
+
+</LinearLayout>

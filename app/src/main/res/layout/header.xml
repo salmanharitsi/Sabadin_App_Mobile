@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/abu"
+    android:padding="20dp"
+    tools:context=".NavigationDrawer">
+
+    <ImageView
+        android:layout_width="102dp"
+        android:layout_height="98dp"/>
+
+    <TextView
+        android:id="@+id/namalengkap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nama lengkap"
+        android:textColor="@color/yellow"
+        android:fontFamily="@font/poppins"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tanggal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tanggal"
+        android:textColor="@color/abu1"
+        android:fontFamily="@font/poppins"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email"
+        android:textColor="@color/abu1"
+        android:fontFamily="@font/poppins"/>
+
+</LinearLayout>
